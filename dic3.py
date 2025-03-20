@@ -12,4 +12,11 @@ empregados = {'01':['João',' Silva'],
 
 numero_func = input('Digite o numero do funcionario:\n')
 nome = input('Digite o nome:\n')
+
+if empregados.get(numero_func):
+    print('Funcionario cadastrado')
+else:
+    empregados[numero_func]=[nome]    
+
+print(empregados)
      
