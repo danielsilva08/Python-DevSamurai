@@ -12,6 +12,6 @@ empregados = {'01':['João',' Silva'],
 
 empregados2 = {'04':['Fulano','de Tal'],
                '05':['Beltrano','de Tal']}
-#update concatena ou seja adiciona os dois empregados. não pode ter duas chaves ids iguais pois ele nã sobre escresve.
+#update concatena ou seja adiciona os dois empregados. não pode ter duas chaves ids iguais pois ele nã sobre escreve.
 empregados.update(empregados2)
 print(empregados)
