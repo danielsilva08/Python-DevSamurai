@@ -9,7 +9,8 @@ def geraLog(texto,nome_arquivo):
 
     arquivo = open(nome_arquivo,'a')#'a' para não sobreescrever se colocar 'w' sobreescrever
     now = time.localtime()
-    now_formatado = time.strftime('%d/%m/%y as %H:%M:%S', now)     
+    #now_formatado = time.strftime('%d/%m/%y as %H:%M:%S', now)
+    now_formatado = time.strftime('%x as %X') #formato americano invertendo m e dia
 
     arquivo.write(f'{now_formatado} -> {texto}\n')
     arquivo.close
