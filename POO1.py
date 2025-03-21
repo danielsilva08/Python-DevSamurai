@@ -7,6 +7,7 @@
 
 #METODO CONSTRUTOR / self é a pessoa1 a pessoa2 
 class Pessoa:
+    #METODO CONSTRUTOR
     def __init__(self, nome, idade, altura):
         self.nome = nome
         self.idade = idade
